@@ -1,0 +1,227 @@
+:root {
+    --white: #ffffff;
+    --dairy: #FCFCFC;
+    --cloud: #f4f4fd;
+    --cornflower: #E7E9FC;
+    --light-slate: #8E8F99;
+    --navy-blue-modal: rgba(46, 47, 66, 0.40);
+    --iris: #4d5ae5;
+    --ocean: #404BBF;
+    --navy-blue: #2e2f42;
+    --slate: #434455;
+    --green: #31D0AA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: var(--white);
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header */
+.header-nav__logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+    text-transform: uppercase;
+}
+
+.header-nav__logo--studio-word {
+    color: var(--navy-blue);
+}
+
+.header-nav__menu-list-item-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.header-nav__menu-list-item-link:hover,
+.header-nav__menu-list-item-link:focus {
+    color: var(--ocean);
+}
+
+/* Header Address */
+.header-address {
+    font-style: normal
+}
+
+.header-address__list-item-link {
+    color: var(--slate);
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
+
+.header-address__list-item-link:hover,
+.header-address__list-item-link:focus {
+    color: var(--ocean);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer__logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+    text-transform: uppercase;
+}
+
+.footer__logo--studio-word {
+    color: var(--cloud);
+}
+
+.footer__text {
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
+/* Home page */
+.hero-section {
+    background-color: var(--navy-blue);
+}
+
+.hero-section__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.hero-section__button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--iris);
+    color: var(--white);
+    border: none;
+}
+
+.hero-section__button:hover,
+.hero-section__button:focus {
+    background-color: var(--ocean);
+}
+
+.service-section__title {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 700;
+    color: var(--navy-blue);
+}
+
+.service-section__list-item-title,
+.portfolio-section__work-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.service-section__list-item-description {
+    letter-spacing: 0.02em;
+}
+
+.our-work-section__title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    font-size: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+.team-section__title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.team-section__list-item {
+    background-color: var(--white);
+}
+
+.team-section__list-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.team-section__list-item-occupation {
+    letter-spacing: 0.02em;
+}
+
+/* Prtfolio page */
+.portfolio-section__filter-button {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    border: 1px solid var(--cornflower);
+}
+
+.portfolio-section__filter-button:hover,
+.portfolio-section__filter-button:focus {
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.portfolio-section__work-list-link {
+    text-decoration: none;
+
+}
+
+.portfolio-section__work-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.portfolio-section__work-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
